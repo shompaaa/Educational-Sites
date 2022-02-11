@@ -1,0 +1,303 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+ 
+
+   
+}
+
+.container{
+    padding-left: 20px;
+    margin: 0;
+}
+.margin{
+    margin-bottom: 70px;
+
+}
+/* header section start */
+.header-section{
+    background-image: url(images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    /* width: 1346px; */
+    height: 500px;
+    padding-top: 50px;
+    
+}
+.text-decoration{
+    word-spacing: 5px;
+    letter-spacing: 3px;
+}
+
+
+
+h1{
+    font-size: 70px;
+    font-weight: 1900px;
+    color: #fff;
+}
+
+h3{
+    font-weight: 1500px;
+   color: #fff;
+}
+
+p{
+  color: #fff;
+  width: 560px;
+  margin: 0 auto;
+  padding-bottom: 15px;
+
+}
+
+.button{
+    margin: 25px;
+    padding: 15px 25px;
+    background-color: yellow;
+    border-radius: 30px;
+    border: 1px solid yellow;
+    font-weight: bolder;
+}
+/* header section end */
+
+/* main section start */
+
+section{
+    display: flex;
+  ;
+}
+
+.div1{
+    width: 50%;
+    padding-left: 150px;
+
+}
+.div1 img{
+    width: 400px;
+    height: 350px;
+}
+
+.div2{
+    width: 50%;
+    height: auto;
+    margin-right: 100px;
+       
+}
+
+h2{
+    font-weight: bolder;
+   
+}
+
+.text{
+    color: #000;
+    
+}
+
+.div3{
+    width: 100%;
+    display: contents;
+}
+.text-margin{
+    margin: 0;
+    display: inline-block;
+}
+
+.second-section{
+    margin-left: 0;
+    text-align: justify;
+    display: block;
+    max-width: 100%;
+}
+
+.div4{
+    width: 80%;
+    display: flex;
+}
+.div5{
+    width: 30%;
+    justify-content: end;
+    display: flex;
+    background-color: orange;
+    padding: 50px 20px;
+    margin-right: 40px;
+    border-radius: 10px;
+    
+}
+
+.div5 p{
+    color: #fff;
+    word-spacing: 2px;
+   
+}
+.spacing{
+    word-spacing: 5px;
+    text-align: justify;
+    margin-left: 0;
+   
+}
+
+
+.box-section{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box-1{
+    width: 30%;
+    border: 1px solid black;
+    padding: 50px 10px;
+    margin-right: 20px;
+    background-color: rgb(214, 205, 205);
+    border-radius: 20px;
+    border: none;
+}
+
+.box-2{
+    width: 30%;
+    border: 1px solid black;
+    margin-right: 20px;
+    padding: 50px 10px;
+    background-color: rgb(214, 205, 205);
+    border-radius: 20px;
+    border: none;
+}
+
+.box-3{
+    width: 30%;
+    border: 1px solid black;
+    margin-right: 20px;
+    padding: 50px 10px;
+    background-color: rgb(214, 205, 205);
+    border-radius: 20px;
+    border: none;
+}
+
+.box-1 p{
+    margin: 0 auto;
+    display:contents;
+}
+.box-2 p{
+    margin: 0 auto;
+    display:contents;
+}
+.box-3 p{
+    margin: 0 auto;
+    display:contents;
+}
+
+.card-section{
+    display: flex;
+    margin-left: 10%;
+    
+   
+}
+
+.card1{
+    box-shadow: 5px 7px 15px;
+    width: 20%;
+    margin-right: 20px;
+    justify-content:flex-start;
+    height: 450px;
+    border-radius: 20px;
+
+}
+
+.card2{
+     box-shadow: 5px 7px 15px;
+    width: 20%;
+    margin-right: 20px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.card3{
+   
+    width: 20%;
+    margin-right: 20px;
+    box-shadow: 5px 7px 15px;
+    height: 450px;
+    border-radius: 20px;
+
+}
+
+.card4{
+    
+    width: 20%;
+    box-shadow: 5px 4px 12px;
+    height: 450px;
+    border-radius: 20px;
+
+}
+.card1 img{
+    border-radius: 50%;
+    border: 10px solid gold;
+    width: 70%;
+    margin-left: 20px;
+    
+}
+.card2 img{
+    border-radius: 50%;
+    border: 10px solid gold;
+    width: 70%;
+    margin-left: 20px;
+}
+.card3 img{
+    border-radius: 50%;
+    border: 10px solid gold;
+    width: 70%;
+    margin-left: 20px;
+}
+.card4 img{
+    border-radius: 50%;
+    border: 10px solid gold;
+    width: 70%;
+    margin-left: 20px;
+}
+.card1 p{
+    display: contents;
+    
+   
+
+    
+}
+.card2 p{
+    display: contents;
+    
+}
+.card3 p{
+    display: contents;
+}
+.card4 p{
+    display: contents;
+}
+
+.card-text{
+    text-align: center;
+}
+
+/* main section end */
+
+/* footer start */
+footer{
+    background-color: rgb(39, 37, 37);
+    height: 200px;
+   
+}
+
+.footer-section{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footer-section a{
+    color: plum;
+}
+
+span{
+    color: #fff;
+}
+
+
